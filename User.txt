@@ -1,0 +1,13 @@
+User					
+
+
+id						INT				AUTO-INC		NOT NULL	UNIQUE
+nome					STRING			VARCHAR(30)		NOT NULL
+cognome					STRING			VARCHAR(30)		NOT NULL
+genere					STRING			VARCHAR(1)		NOT NULL
+anno_nascita			DATE			DATE			NOT NULL
+indirizzo				STRING			VARCHAR(50)		NULL
+codice_fiscale			STRING			VARCHAR(16)		NOT NULL	UNIQUE
+e_mail					STRING			VARCHAR(30)		NOT NULL	UNIQUE
+nickname				STRING			VARCHAR(20)		NOT NULL	UNIQUE
+password				STRING			VARCHAR(20)		NOT NULL	UNIQUE
